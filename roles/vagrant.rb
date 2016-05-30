@@ -1,5 +1,6 @@
 recipes = %w(
   rbenv
+  nginx
 )
 
 recipes.each do |recipe|
