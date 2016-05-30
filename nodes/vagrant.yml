@@ -1,0 +1,14 @@
+rbenv:
+  user: 'vagrant'
+  global:
+    2.3.1
+  versions:
+    - 2.3.1
+
+  scheme: https
+
+# Optional plugin. Specify :install or :revision to install rbenv-default-gems.
+rbenv-default-gems:
+  default-gems:
+    - bundler
+  install: true
