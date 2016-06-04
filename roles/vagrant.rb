@@ -1,4 +1,5 @@
 recipes = %w(
+  user
   rbenv
   nginx
   postgres
