@@ -1,3 +1,7 @@
+user:
+  name: # Set username
+  password: # Set password
+  salt: # Set salt(2 chars)
 rbenv:
   user: 'vagrant'
   global:
