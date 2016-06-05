@@ -1,3 +1,5 @@
+require 'pry'
+
 recipes = %w(
   user
   rbenv

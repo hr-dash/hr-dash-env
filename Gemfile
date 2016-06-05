@@ -7,6 +7,7 @@ gem "itamae"
 gem "itamae-secrets"
 gem "serverspec"
 gem "rake"
+gem "pry-doc"
 
 # itamae plugins
 gem "itamae-plugin-recipe-rbenv"
