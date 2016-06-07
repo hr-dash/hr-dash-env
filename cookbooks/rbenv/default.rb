@@ -1,7 +1,7 @@
 username = node['rbenv']['user']
-include_recipe "rbenv::user"
+include_recipe "rbenv::system"
 
-remote_file "/home/#{username}/.bashrc" do
+remote_file "/etc/profile.d/rbenv.sh" do
   action :create
   owner username
   group username
