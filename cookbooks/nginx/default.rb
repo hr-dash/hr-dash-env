@@ -2,4 +2,10 @@ package 'nginx' do
   action :install
 end
 
-remote_file "/etc/nginx/conf.d/web.conf"
+template "/etc/nginx/conf.d/web.conf" do
+  variables(
+    port: 8080,
+    project_dir: '/var/www/',
+    project_name: 'hr-dash',
+  )
+end
