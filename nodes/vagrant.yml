@@ -5,14 +5,10 @@ user:
   salt: # Set salt(2 chars)
   name: *username
 rbenv:
-  user: *username
-  rbenv_root: "/home/{username}/.rbenv" # Set username
   global:
     2.3.1
   versions:
     - 2.3.1
-
-  scheme: https
 
 # Optional plugin. Specify :install or :revision to install rbenv-default-gems.
 rbenv-default-gems:
