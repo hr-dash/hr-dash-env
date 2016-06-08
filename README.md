@@ -4,7 +4,7 @@
 ```
 vagrant plugin install vagrant-hostsupdater
 git clone git@github.com:hr-dash/hr-dash-env.git
-vagrant up
+sudo vagrant up # To edit /etc/hosts
 ```
 
 ## Execute
