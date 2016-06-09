@@ -14,6 +14,7 @@ package "postgresql#{short_ver}-libs"
 
 execute "initdb" do
   command "service postgresql-#{ver} initdb"
+  not_if "ls /var/lib/pgsql/"
 end
 
 [:enable, :restart].each do |act|
