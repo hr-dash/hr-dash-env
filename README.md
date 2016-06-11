@@ -10,5 +10,10 @@ sudo vagrant up # To edit /etc/hosts
 ## Execute
 ### development(vagrant)
 ```
-bundle exec itamae ssh --vagrant --sudo -y nodes/vagrant.yml roles/vagrant.rb
+bundle exec itamae ssh --vagrant --sudo -y nodes/vagrant.yml recipes/install.rb
+
+## deploy app from hr-dash
+bundle exec cap vagrant deploy
+
+bundle exec itamae ssh --vagrant --sudo -y nodes/vagrant.yml recipes/start.rb
 ```
