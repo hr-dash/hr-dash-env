@@ -15,7 +15,8 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = 'nrel/CentOS-6.5-x86_64'
+  config.vm.box = 'vagrant-centos/6.5.3'
+  config.vm.box_url = 'https://github.com/2creatives/vagrant-centos/releases/download/v6.5.3/centos65-x86_64-20140116.box'
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
