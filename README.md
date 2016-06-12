@@ -7,6 +7,9 @@ git clone git@github.com:hr-dash/hr-dash-env.git
 sudo vagrant up # To edit /etc/hosts
 ```
 
+## Setup
+`nodes/vagrant.yml`を設定
+
 ## Execute
 ### development(vagrant)
 ```

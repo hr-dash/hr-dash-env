@@ -1,5 +1,5 @@
 username: &username
-  # Set username
+  web # Set username
 user:
   password: # Set password
   salt: # Set salt(2 chars)
