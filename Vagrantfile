@@ -33,6 +33,9 @@ Vagrant.configure(2) do |config|
   config.vm.network "private_network", ip: "192.168.33.10"
   config.vm.hostname = "hr-dash-server"
 
+  # SSH Settings
+  config.ssh.forward_agent = true
+
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
   # your network.
