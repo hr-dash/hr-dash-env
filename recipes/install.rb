@@ -3,6 +3,7 @@ require 'pry'
 recipes = %w(
   user
   rbenv
+  nodejs
   nginx
   postgres
 )
