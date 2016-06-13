@@ -11,6 +11,7 @@ package "postgresql#{short_ver}-server"
 package "postgresql#{short_ver}-contrib"
 package "postgresql#{short_ver}-devel"
 package "postgresql#{short_ver}-libs"
+package "postgresql-devel"
 
 execute "initdb" do
   command "service postgresql-#{ver} initdb"
