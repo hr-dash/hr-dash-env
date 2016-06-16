@@ -1,5 +1,7 @@
 # hr-dash-env
 
+[hr-dash](https://github.com/hr-dash/hr-dash)の環境構築を先に終える
+
 ## Install
 ```
 vagrant plugin install vagrant-hostsupdater
@@ -9,6 +11,10 @@ vagrant up # To edit /etc/hosts sudo必要になるのでpassword入力
 
 # Add ssh config
 vagrant ssh-config --host hr-dash-server >> ~/.ssh/config
+```
+
+```
+bundle install --path vendor/bundle
 ```
 
 ## Setup
