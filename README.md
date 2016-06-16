@@ -4,7 +4,7 @@
 ```
 vagrant plugin install vagrant-hostsupdater
 git clone git@github.com:hr-dash/hr-dash-env.git
-sudo vagrant up # To edit /etc/hosts
+vagrant up # To edit /etc/hosts sudo必要になるのでpassword入力
 
 # Add ssh config
 vagrant ssh-config --host hr-dash-server >> ~/.ssh/config
