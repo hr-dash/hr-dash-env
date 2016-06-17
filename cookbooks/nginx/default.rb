@@ -9,8 +9,8 @@ end
 
 template "/etc/nginx/conf.d/web.conf" do
   variables(
-    port: 8080,
-    project_dir: '/var/www/',
-    project_name: 'hr-dash',
+    port: node[:nginx][:port],
+    project_dir: node[:nginx][:project_dir],
+    project_name: node[:nginx][:project_name],
   )
 end
