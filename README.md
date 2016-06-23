@@ -25,7 +25,7 @@ bundle install --path vendor/bundle
 ```
 bundle exec itamae ssh --vagrant --sudo -y nodes/vagrant.yml recipes/install.rb
 
-## deploy app from hr-dash
+# hr-dashのプロジェクトルートに移動(cd)し、下記のdeployコマンドを叩く
 bundle exec cap vagrant deploy
 
 bundle exec itamae ssh --vagrant --sudo -y nodes/vagrant.yml recipes/start.rb
