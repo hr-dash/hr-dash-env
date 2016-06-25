@@ -7,6 +7,8 @@ package 'nginx' do
   action :install
 end
 
+remote_file "/etc/nginx/conf.d/default.conf"
+
 template "/etc/nginx/conf.d/web.conf" do
   variables(
     port: node[:nginx][:port],
