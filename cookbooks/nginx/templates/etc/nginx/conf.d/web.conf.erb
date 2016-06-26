@@ -1,5 +1,5 @@
 upstream unicorn {
-  server unix:<%= @project_dir %><%= @project_name %>/current/tmp/production_unicorn.sock;
+  server unix:<%= @project_dir %><%= @project_name %>/current/tmp/sockets/unicorn.sock;
 }
 
 server {
